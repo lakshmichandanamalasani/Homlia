@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-links a {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+}
+
+.hero-section {
+    position: relative;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.326)), url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-vector%2F20220518%2Fourmid%2Fpngtree-background-with-modern-luxury-houses-png-image_4655190.png&tbnid=6alMCjpxXCvC-M&vet=1&imgrefurl=https%3A%2F%2Fpngtree.com%2Fso%2Fluxurious-house-clipart&docid=l3ePtT-q2eb_jM&w=510&h=361&itg=1&hl=en&source=sh%2Fx%2Fim%2Fm4%2F2&kgs=214a47590e03b645&shem=abme%2Ctrie#imgrc=U-b9ZJIf0mHv_M&imgdii=6alMCjpxXCvC-') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: rgb(25, 219, 128);
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.option-btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00aaff;
+    color: white;
+    font-size: 16px;
+}
+
+.option-btn.active {
+    background-color: #00aaff;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: #ff5a5f;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
